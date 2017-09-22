@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6980378-5198-4367-B544-2CC6BF9428D7" name="Email_Account">
+<createdBy>0X09</createdBy>
+<createdTime>2013-04-18 10:50:00 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Email_ID" id="3581CACF-2ED0-9948-6795-D482D3589E27">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-02 20:55:22 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="Email_Address" id="B1B57E7B-97F7-8091-D985-B961D3F75F61">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-02 20:15:43 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="Email_Password" id="C6A2CA01-2423-8FB8-0DD6-BDB8E502DEBC">
+<createdBy>0X09</createdBy>
+<createdTime>2013-04-18 10:50:38 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="Email_Preferences" id="4FF823CA-B9AD-E710-9918-2D6A392512C2">
+<createdBy>0X09</createdBy>
+<createdTime>2013-04-18 10:51:03 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+</Attribute>
+<Attribute name="User_ID" id="A5BE5A22-B4F7-E925-248C-142CF17199BA">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-02 21:03:02 UTC</createdTime>
+<generatorID>AF33FBCB-1037-66AE-04F2-77929A1D3BFB</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<referedAttribute>227DAD8C-4149-FD29-0DB0-4C6E2EF007F9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="SP_ID" id="5150C1E4-233A-8E1D-EE9F-AC099A563A0F">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-02 21:43:00 UTC</createdTime>
+<generatorID>A24F3D0C-A5F3-B30B-3959-7720CA743B81</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<referedAttribute>3BD7A924-9AD5-930E-8EEE-30CC327B06AC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="POP3" id="8109066A-D9ED-280C-695B-A321A7E3B4D0">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-09 17:29:44 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="00A9FA6E-016D-1853-8237-82151A69896A" name="Email_Account PK">
+<createdBy>0X09</createdBy>
+<createdTime>2013-04-18 10:50:34 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3581CACF-2ED0-9948-6795-D482D3589E27</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

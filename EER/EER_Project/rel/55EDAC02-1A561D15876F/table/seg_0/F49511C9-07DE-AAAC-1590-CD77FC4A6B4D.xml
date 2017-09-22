@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F49511C9-07DE-AAAC-1590-CD77FC4A6B4D" name="Attachment">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>D920A1F9-C2B1-65A5-3D6D-FF0CC8254EA6</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ATT_Order" id="BC7BD11C-5A9D-6144-A16D-0BE832214DD6">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>EBEEFE72-FD4B-1EE8-17D7-6C61CF616DE9</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATT_Name" id="627F3588-EA32-FB7C-0435-8E0EA4DB8D9D">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>22F71F3D-CC2A-4F77-0428-226AE53E167C</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATT_Extention" id="ED96E531-25B9-CE84-9AC7-4632C4E5AB7A">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>940F8F8E-2FD5-9191-E2AD-925845553515</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATT_File" id="D9429BCB-72E2-C259-320D-8CDC729B0671">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>54B18277-DE42-7A2C-C3A9-E50E00019739</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MS_ID" id="C593052D-AAEB-C456-1DD6-E2C2734451F4">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>F1BF42B4-82F9-A4F1-9226-C33D65CDE3A9</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>5744B3C1-F5DB-4D39-6395-584AD262127B</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="460CC8C3-44ED-A162-3727-446F57070FF0" referredColumn="5744B3C1-F5DB-4D39-6395-584AD262127B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="68BA8716-B3B9-4C65-2E07-599A2C1BB0DB" name="Attachment_PK">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>CC89D12F-359C-0861-6D23-DA82B3F54ED0</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC7BD11C-5A9D-6144-A16D-0BE832214DD6"/>
+<colUsage columnID="C593052D-AAEB-C456-1DD6-E2C2734451F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05E19B4F-AD9A-5CF2-6E74-9A0FFC4D45C4" name="Attachment_Email_Message_FK">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>C9152129-EB99-395B-F9F6-61B68F91543C</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C593052D-AAEB-C456-1DD6-E2C2734451F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

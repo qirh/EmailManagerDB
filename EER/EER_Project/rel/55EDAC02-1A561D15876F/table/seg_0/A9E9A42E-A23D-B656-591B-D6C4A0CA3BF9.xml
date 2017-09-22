@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9E9A42E-A23D-B656-591B-D6C4A0CA3BF9" name="User_Info">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>F82BCFF3-CD78-F437-AEA2-07A5EDB81573</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="User_ID" id="F0A8FCF3-E28F-464E-ABD2-7A8AAF00E137">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>227DAD8C-4149-FD29-0DB0-4C6E2EF007F9</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_Name" id="5BF881D9-7275-4E42-076F-D95A81B30ACE">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>9DD3D7C7-A7EF-9FED-85D3-9E348D287413</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_Password" id="BACAD4B8-3985-F5BA-1FDF-CD0641568DF8">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>C11052A4-4E69-704D-7BB0-7533F05230B9</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15D4571D-7BF6-C476-477C-F7AD8C309377" name="User_Info_PK">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>C494B4B3-751D-B791-EA5F-7C9622204833</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0A8FCF3-E28F-464E-ABD2-7A8AAF00E137"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

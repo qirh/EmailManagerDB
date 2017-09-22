@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F82BCFF3-CD78-F437-AEA2-07A5EDB81573" name="User_Info">
+<createdBy>0X09</createdBy>
+<createdTime>2013-04-18 10:48:36 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="User_ID" id="227DAD8C-4149-FD29-0DB0-4C6E2EF007F9">
+<createdBy>0X09</createdBy>
+<createdTime>2013-04-18 10:48:46 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="User_Name" id="9DD3D7C7-A7EF-9FED-85D3-9E348D287413">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-02 19:53:44 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="User_Password" id="C11052A4-4E69-704D-7BB0-7533F05230B9">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-02 19:55:19 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C494B4B3-751D-B791-EA5F-7C9622204833" name="User PK">
+<createdBy>0X09</createdBy>
+<createdTime>2013-04-18 10:48:51 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>227DAD8C-4149-FD29-0DB0-4C6E2EF007F9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

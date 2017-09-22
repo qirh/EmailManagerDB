@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="D920A1F9-C2B1-65A5-3D6D-FF0CC8254EA6" name="Attachment" seqName="seg_0"/>
+   <object objectType="Entity" objectID="E6980378-5198-4367-B544-2CC6BF9428D7" name="Email_Account" seqName="seg_0"/>
+   <object objectType="Entity" objectID="67C840A1-5AD1-355B-4368-D81F6FBCB768" name="Email_Message" seqName="seg_0"/>
+   <object objectType="Entity" objectID="2E53D489-0B4E-9FE5-EAAD-9AACE38D32AD" name="Received_Email" seqName="seg_0"/>
+   <object objectType="Entity" objectID="4B8AC5B5-CCDE-4D77-52E0-C3B68FB4779C" name="Sent_Email" seqName="seg_0"/>
+   <object objectType="Entity" objectID="A4F09BC7-5874-9901-CADA-F793DAEDE9F9" name="Server_Info" seqName="seg_0"/>
+   <object objectType="Entity" objectID="C560CA49-45AA-EE3B-185E-886929762CA4" name="Service_Provider" seqName="seg_0"/>
+   <object objectType="Entity" objectID="F82BCFF3-CD78-F437-AEA2-07A5EDB81573" name="User_Info" seqName="seg_0"/>
+   <object objectType="Relation" objectID="C9152129-EB99-395B-F9F6-61B68F91543C" name="Attached" seqName="seg_0"/>
+   <object objectType="Relation" objectID="EF923A6D-9AD7-184B-8A45-E9C326FD32CE" name="Has" seqName="seg_0"/>
+   <object objectType="Relation" objectID="AF33FBCB-1037-66AE-04F2-77929A1D3BFB" name="Owns" seqName="seg_0"/>
+   <object objectType="Relation" objectID="E2CC1A7E-B71A-DBB4-44F4-5358CB9787DD" name="Relation_7" seqName="seg_0"/>
+   <object objectType="Relation" objectID="A24F3D0C-A5F3-B30B-3959-7720CA743B81" name="Relation_8" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="197A070D-24D3-2B41-D5D6-F8F8508B9B68" name="Hierarchy_1" seqName="seg_0"/>
+   <object objectType="Hierarchy relation" objectID="AEBEDD7E-7E4B-9469-A255-48BC41636302" name="Hierarchy_2" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

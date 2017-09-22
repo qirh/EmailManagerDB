@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{75136F1A-B477-412F-B871-4D0EE7FEB0E5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Email/Login.Designer.cs">
+    <Files>
+      <File FileName="Email/Login.cs" Line="1" Column="1" />
+      <File FileName="Email/Database1DataSet.xsd" Line="1" Column="1" />
+      <File FileName="Email/Configure.cs" Line="1" Column="1" />
+      <File FileName="Email/App.config" Line="1" Column="1" />
+      <File FileName="Email/Database1DataSet.xsc" Line="1" Column="1" />
+      <File FileName="Email/Database1DataSet.Designer.cs" Line="1" Column="1" />
+      <File FileName="Email/Login.resx" Line="1" Column="1" />
+      <File FileName="Email/Login.Designer.cs" Line="75" Column="47" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Email PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

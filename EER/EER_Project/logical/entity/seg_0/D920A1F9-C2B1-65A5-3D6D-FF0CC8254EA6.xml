@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D920A1F9-C2B1-65A5-3D6D-FF0CC8254EA6" name="Attachment">
+<createdBy>0X09</createdBy>
+<createdTime>2013-04-18 10:45:07 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ATT_Order" id="EBEEFE72-FD4B-1EE8-17D7-6C61CF616DE9">
+<createdBy>0X09</createdBy>
+<createdTime>2013-04-18 10:45:56 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="ATT_Name" id="22F71F3D-CC2A-4F77-0428-226AE53E167C">
+<createdBy>0X09</createdBy>
+<createdTime>2013-04-18 10:46:32 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="ATT_Extention" id="940F8F8E-2FD5-9191-E2AD-925845553515">
+<createdBy>0X09</createdBy>
+<createdTime>2013-04-18 10:47:11 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+</Attribute>
+<Attribute name="ATT_File" id="54B18277-DE42-7A2C-C3A9-E50E00019739">
+<createdBy>0X09</createdBy>
+<createdTime>2013-04-18 10:47:32 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+</Attribute>
+<Attribute name="MS_ID" id="F1BF42B4-82F9-A4F1-9226-C33D65CDE3A9">
+<createdBy>0X09</createdBy>
+<createdTime>2013-04-18 10:57:59 UTC</createdTime>
+<generatorID>C9152129-EB99-395B-F9F6-61B68F91543C</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<referedAttribute>2790A5CA-9181-6FA5-A238-DAB89BC560C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="Email_ID" id="3E5A5840-F274-12E4-92D3-6921C21CA94C">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-09 17:25:58 UTC</createdTime>
+<generatorID>C9152129-EB99-395B-F9F6-61B68F91543C</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<referedAttribute>B0A57CE2-1049-0410-EC4C-458EAD616B33</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CC89D12F-359C-0861-6D23-DA82B3F54ED0" name="Attachment PK">
+<createdBy>0X09</createdBy>
+<createdTime>2013-04-18 10:46:26 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EBEEFE72-FD4B-1EE8-17D7-6C61CF616DE9</attributeRef>
+<attributeRef>F1BF42B4-82F9-A4F1-9226-C33D65CDE3A9</attributeRef>
+<attributeRef>3E5A5840-F274-12E4-92D3-6921C21CA94C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

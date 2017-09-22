@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="67C840A1-5AD1-355B-4368-D81F6FBCB768" name="Email_Message">
+<createdBy>0X09</createdBy>
+<createdTime>2013-04-18 10:35:00 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MS_ID" id="2790A5CA-9181-6FA5-A238-DAB89BC560C2">
+<createdBy>0X09</createdBy>
+<createdTime>2013-04-18 10:35:48 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="MS_Recipients" id="7D8CFD76-B919-C5CC-9571-AF1E1C3CB67D">
+<createdBy>0X09</createdBy>
+<createdTime>2013-04-18 10:36:44 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+</Attribute>
+<Attribute name="MS_Subject" id="7EE16A01-332A-D3BA-40C8-20E388F27A40">
+<createdBy>0X09</createdBy>
+<createdTime>2013-04-18 10:36:44 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+</Attribute>
+<Attribute name="MS_Body" id="5F1FBAF2-3722-0E76-5B5A-0247E91BAC4C">
+<createdBy>0X09</createdBy>
+<createdTime>2013-04-18 10:36:44 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+</Attribute>
+<Attribute name="MS_TimeStamp" id="F7AF51A5-80B0-82C1-50CC-2D9EFC65D1B0">
+<createdBy>0X09</createdBy>
+<createdTime>2013-04-18 10:36:45 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="MS_Sent" id="B014803B-B887-582C-9572-C51F34508663">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-11 20:51:09 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+</Attribute>
+<Attribute name="Email_ID" id="B0A57CE2-1049-0410-EC4C-458EAD616B33">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-02 20:55:38 UTC</createdTime>
+<generatorID>EF923A6D-9AD7-184B-8A45-E9C326FD32CE</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<referedAttribute>3581CACF-2ED0-9948-6795-D482D3589E27</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D96E944E-D49F-0EDB-6AC5-7D48A3661B2F" name="Email_Message PK">
+<createdBy>0X09</createdBy>
+<createdTime>2013-04-18 10:36:26 UTC</createdTime>
+<ownerDesignName>EER_Project</ownerDesignName>
+<engineerTo>
+<item key="55EDAC02-6287-0917-2A08-1A561D15876F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2790A5CA-9181-6FA5-A238-DAB89BC560C2</attributeRef>
+<attributeRef>B0A57CE2-1049-0410-EC4C-458EAD616B33</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="11F24E8F-0293-F384-CFF1-3188C5955927" name="Email_Account_User_Info_FK">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>AF33FBCB-1037-66AE-04F2-77929A1D3BFB</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<containerWithKeyObject>D84FA93D-5292-ACD4-A7F7-6F8AD713A7EF</containerWithKeyObject>
+<deleteRule>CASCADE</deleteRule>
+<localFKIndex>779C9422-6D9B-D72F-212E-1F71DBE222EF</localFKIndex>
+<keyObject>15D4571D-7BF6-C476-477C-F7AD8C309377</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D84FA93D-5292-ACD4-A7F7-6F8AD713A7EF" name="Email_Account">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>E6980378-5198-4367-B544-2CC6BF9428D7</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Email_ID" id="7F07BBC3-0472-CF0F-AB36-E6A1129F7205">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>3581CACF-2ED0-9948-6795-D482D3589E27</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email_Address" id="31FBF444-3B2A-5EAA-F0D4-90AB7D515A88">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>B1B57E7B-97F7-8091-D985-B961D3F75F61</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email_Password" id="219FC159-3FD5-CB55-D0FF-0CCD061A3463">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>C6A2CA01-2423-8FB8-0DD6-BDB8E502DEBC</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email_Preferences" id="9B799A1A-3E21-5846-89F6-3D31338F0E6A">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>4FF823CA-B9AD-E710-9918-2D6A392512C2</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_ID" id="F81CCE38-2EDE-6337-A1F1-67B0B9938BD8">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>A5BE5A22-B4F7-E925-248C-142CF17199BA</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>F0A8FCF3-E28F-464E-ABD2-7A8AAF00E137</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11F24E8F-0293-F384-CFF1-3188C5955927" referredColumn="F0A8FCF3-E28F-464E-ABD2-7A8AAF00E137"/>
+</associations>
+</Column>
+<Column name="SP_ID" id="D0EFEC47-F767-3E11-4D9A-F49A706D76DC">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>5150C1E4-233A-8E1D-EE9F-AC099A563A0F</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>6EACABE1-3A2D-A177-C5A6-50A0172BD9C9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BFA1FC0-CCC3-CEBC-050F-3AB7F4D31FC1" referredColumn="6EACABE1-3A2D-A177-C5A6-50A0172BD9C9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC6FD4F7-3EE4-9F0B-C165-37BE5F4B9EE4" name="Email_Account_PK">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>00A9FA6E-016D-1853-8237-82151A69896A</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F07BBC3-0472-CF0F-AB36-E6A1129F7205"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="779C9422-6D9B-D72F-212E-1F71DBE222EF" name="Email_Account_User_Info_FK">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>AF33FBCB-1037-66AE-04F2-77929A1D3BFB</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F81CCE38-2EDE-6337-A1F1-67B0B9938BD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5A86EB1-B555-DAAA-EAE0-074EB26F9724" name="Email_Account_Service_Provider_FK">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>A24F3D0C-A5F3-B30B-3959-7720CA743B81</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0EFEC47-F767-3E11-4D9A-F49A706D76DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

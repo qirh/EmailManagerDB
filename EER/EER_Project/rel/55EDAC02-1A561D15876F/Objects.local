@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="0AEF76EF-E9A7-09A9-D326-CC7A2B45F21F" name="Server" seqName="seg_0"/>
+   <object objectType="Table" objectID="4114D0BB-9D25-D6E8-35A3-077745EB4032" name="Email_Message" seqName="seg_0"/>
+   <object objectType="Table" objectID="4218687B-30EC-E6ED-2D79-8DB09A09240E" name="Received_Email" seqName="seg_0"/>
+   <object objectType="Table" objectID="45AE11D7-D987-D0FA-1CFE-DF308A316FA7" name="Sent_Email" seqName="seg_0"/>
+   <object objectType="Table" objectID="A9E9A42E-A23D-B656-591B-D6C4A0CA3BF9" name="User_Info" seqName="seg_0"/>
+   <object objectType="Table" objectID="D84FA93D-5292-ACD4-A7F7-6F8AD713A7EF" name="Email_Account" seqName="seg_0"/>
+   <object objectType="Table" objectID="F49511C9-07DE-AAAC-1590-CD77FC4A6B4D" name="Attachment" seqName="seg_0"/>
+   <object objectType="Table" objectID="FB52B331-8E66-1E77-AB93-6DE5DE3DD8DE" name="Service_Provider" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="11F24E8F-0293-F384-CFF1-3188C5955927" name="Email_Account_User_Info_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="224407D4-2135-21FE-8B90-566BAF0D5F0D" name="Email_Message_Email_Account_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="45394FB6-6BD6-7F5C-29A1-0D62F4E1A7BC" name="FK_ASS_1" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="460CC8C3-44ED-A162-3727-446F57070FF0" name="Attachment_Email_Message_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="8BFA1FC0-CCC3-CEBC-050F-3AB7F4D31FC1" name="Email_Account_Service_Provider_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9FD8C5DD-9CAD-AB51-F6E2-DB493F7DD8CB" name="FK_ASS_2" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DDB0C6AF-2B92-C21F-2402-01CAF6BFA20A" name="Server_Service_Provider_FK" seqName="seg_0"/>
+   <object objectType="FKArc" objectID="CBFA3BDE-0C2B-DB51-805B-B6E26CE3A975" name="FKArc_1" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

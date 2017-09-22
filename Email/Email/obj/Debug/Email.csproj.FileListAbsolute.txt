@@ -1,0 +1,69 @@
+c:/users/sal7/documents/visual studio 2012/Projects/Email/Email/bin/Debug/Email.exe.config
+c:/users/sal7/documents/visual studio 2012/Projects/Email/Email/bin/Debug/Email.exe
+c:/users/sal7/documents/visual studio 2012/Projects/Email/Email/bin/Debug/Email.pdb
+c:/users/sal7/documents/visual studio 2012/Projects/Email/Email/obj/Debug/Email.csprojResolveAssemblyReference.cache
+c:/users/sal7/documents/visual studio 2012/Projects/Email/Email/obj/Debug/Email.Properties.Resources.resources
+c:/users/sal7/documents/visual studio 2012/Projects/Email/Email/obj/Debug/Email.csproj.GenerateResource.Cache
+c:/users/sal7/documents/visual studio 2012/Projects/Email/Email/obj/Debug/Email.exe
+c:/users/sal7/documents/visual studio 2012/Projects/Email/Email/obj/Debug/Email.pdb
+c:/users/sal7/documents/visual studio 2012/Projects/Email/Email/bin/Debug/Database1.sdf
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/obj/Debug/Email.Main.resources
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/obj/Debug/Email.NewUser.resources
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/obj/Debug/Email.Send.resources
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/obj/Debug/Email.Login.resources
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/obj/Debug/Email.Configure.resources
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/bin/Debug/ActiveUp.Net.Common.dll
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/bin/Debug/ActiveUp.Net.Dns.dll
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/bin/Debug/ActiveUp.Net.Groupware.dll
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/bin/Debug/ActiveUp.Net.Imap4.dll
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/bin/Debug/ActiveUp.Net.Mail.dll
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/bin/Debug/ActiveUp.Net.Nntp.dll
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/bin/Debug/ActiveUp.Net.OpenPGP.dll
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/bin/Debug/ActiveUp.Net.Pop3.dll
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/bin/Debug/ActiveUp.Net.Smtp.dll
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/bin/Debug/ActiveUp.Net.WhoIs.dll
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/bin/Debug/ActiveUp.Net.Common.xml
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/bin/Debug/ActiveUp.Net.Dns.xml
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/bin/Debug/ActiveUp.Net.Groupware.xml
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/bin/Debug/ActiveUp.Net.Imap4.xml
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/bin/Debug/ActiveUp.Net.Mail.xml
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/bin/Debug/ActiveUp.Net.Nntp.xml
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/bin/Debug/ActiveUp.Net.OpenPGP.xml
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/bin/Debug/ActiveUp.Net.Pop3.xml
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/bin/Debug/ActiveUp.Net.Smtp.xml
+C:/Users/sal7/Documents/Visual Studio 2012/Projects/Email/Email/bin/Debug/ActiveUp.Net.WhoIs.xml
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/Database1.sdf
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/Email.exe.config
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/Email.exe
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/Email.pdb
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/ActiveUp.Net.Common.dll
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/ActiveUp.Net.Dns.dll
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/ActiveUp.Net.Groupware.dll
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/ActiveUp.Net.Imap4.dll
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/ActiveUp.Net.Mail.dll
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/ActiveUp.Net.Nntp.dll
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/ActiveUp.Net.OpenPGP.dll
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/ActiveUp.Net.Pop3.dll
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/ActiveUp.Net.Smtp.dll
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/ActiveUp.Net.WhoIs.dll
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/ActiveUp.Net.Common.xml
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/ActiveUp.Net.Dns.xml
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/ActiveUp.Net.Groupware.xml
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/ActiveUp.Net.Imap4.xml
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/ActiveUp.Net.Mail.xml
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/ActiveUp.Net.Nntp.xml
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/ActiveUp.Net.OpenPGP.xml
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/ActiveUp.Net.Pop3.xml
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/ActiveUp.Net.Smtp.xml
+/Users/sal7/Desktop/Project/Email/Email/bin/Debug/ActiveUp.Net.WhoIs.xml
+/Users/sal7/Desktop/Project/Email/Email/obj/Debug/Email.csprojResolveAssemblyReference.cache
+/Users/sal7/Desktop/Project/Email/Email/obj/Debug/Email.Configure.resources
+/Users/sal7/Desktop/Project/Email/Email/obj/Debug/Email.Main.resources
+/Users/sal7/Desktop/Project/Email/Email/obj/Debug/Email.NewUser.resources
+/Users/sal7/Desktop/Project/Email/Email/obj/Debug/Email.Send.resources
+/Users/sal7/Desktop/Project/Email/Email/obj/Debug/Email.Login.resources
+/Users/sal7/Desktop/Project/Email/Email/obj/Debug/Email.Properties.Resources.resources
+/Users/sal7/Desktop/Project/Email/Email/obj/Debug/Email.csproj.GenerateResource.Cache
+/Users/sal7/Desktop/Project/Email/Email/obj/Debug/Email.csproj.CoreCompileInputs.cache
+/Users/sal7/Desktop/Project/Email/Email/obj/Debug/Email.exe
+/Users/sal7/Desktop/Project/Email/Email/obj/Debug/Email.pdb

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0AEF76EF-E9A7-09A9-D326-CC7A2B45F21F" name="Server">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>A4F09BC7-5874-9901-CADA-F793DAEDE9F9</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SV_ID" id="6A895E74-2480-159F-7554-65F3D6F643DB">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>2B732EE9-20B0-CDF3-C806-E963A4A6BA15</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SV_Name" id="39BCDA3C-C723-391F-ACCD-CC1C3BD64523">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>23E7800B-50FC-00DC-D3BF-89307BD7DA90</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SV_Protocol" id="07E56F1F-89D3-9B5D-C135-4A2C98E9B8B3">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>21FEB8D5-1AC4-0956-D897-B7829A079D93</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SV_Port" id="0A73A46A-D2E1-E6F7-222B-9553446B3743">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>D738EF59-1636-8C9F-D2B6-5DECDB9300D8</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SV_SSLFlag" id="B872A6B2-F832-F3FA-6491-12371A50F308">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>04FAE4A4-F3BB-79E1-4C59-D0A8BE368F9E</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SV_STARTTLSFlag" id="738BF690-6126-1E6F-103C-236CAC7EC06A">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>B0A7ACA4-CA80-145E-9CBA-CCF8DE63C356</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SP_ID" id="E592DD29-DEB0-E480-DB5B-98F0351D3403">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>0FC2352C-5BE2-263D-79B8-D0CA4C47902A</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>6EACABE1-3A2D-A177-C5A6-50A0172BD9C9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDB0C6AF-2B92-C21F-2402-01CAF6BFA20A" referredColumn="6EACABE1-3A2D-A177-C5A6-50A0172BD9C9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9577883-461C-D41F-28EE-D55AF4F1A692" name="Server_PK">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>683A5BDA-735F-265A-0018-1A16025E3D57</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A895E74-2480-159F-7554-65F3D6F643DB"/>
+<colUsage columnID="E592DD29-DEB0-E480-DB5B-98F0351D3403"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51ADEC88-AF51-0F92-ACDA-0FC6B49DC9CA" name="Server_Service_Provider_FK">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>E2CC1A7E-B71A-DBB4-44F4-5358CB9787DD</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E592DD29-DEB0-E480-DB5B-98F0351D3403"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

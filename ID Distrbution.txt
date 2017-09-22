@@ -1,0 +1,16 @@
+Total Space = 2^32
+
+User ID's:        1       -  10,000
+				
+SP ID's:          20,000  -  25,000
+
+Server ID's:      30,000  -  40,000
+
+Email Acc ID's:   50,000  -  100,000
+
+Email Mes ID's: 1,000,000 -  6,000,000
+
+	Sent:       1,000,000 -  3,000,000
+	Received:   4,000,000 -  6,000,000
+
+Attachments have no ID's, instead they are identified by the order they appear in their respective emails.

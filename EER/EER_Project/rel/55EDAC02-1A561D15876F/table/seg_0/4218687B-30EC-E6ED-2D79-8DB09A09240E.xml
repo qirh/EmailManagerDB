@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4218687B-30EC-E6ED-2D79-8DB09A09240E" name="Received_Email">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>2E53D489-0B4E-9FE5-EAAD-9AACE38D32AD</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Email_Message_MS_ID" id="0BA52F73-0E0B-7BA8-7BF2-6A44736E5AAF">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>2790A5CA-9181-6FA5-A238-DAB89BC560C2</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>5744B3C1-F5DB-4D39-6395-584AD262127B</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FD8C5DD-9CAD-AB51-F6E2-DB493F7DD8CB" referredColumn="5744B3C1-F5DB-4D39-6395-584AD262127B"/>
+</associations>
+</Column>
+<Column name="Received_Email_MSR_Priority" id="28359A30-5944-0FF0-128A-31CCB50E68B5">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>0E2D27D8-9F50-C05E-9BAE-BF0F0FA794EB</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Received_Email_MSR_SpamFlag" id="EDB7B52E-0467-0AE9-197B-399129BDB76A">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>B3A71809-D9BF-D3AC-E644-783BCDA1D44E</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93537560-FC3D-04AF-F600-3719DB318929" name="Received_Email_PK">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>D96E944E-D49F-0EDB-6AC5-7D48A3661B2F</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BA52F73-0E0B-7BA8-7BF2-6A44736E5AAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C254DE8-51AF-D85F-A261-824B741CB25F" name="FK_ASS_2">
+<createdBy>sal7</createdBy>
+<createdTime>2013-05-07 03:13:05 UTC</createdTime>
+<generatorID>AEBEDD7E-7E4B-9469-A255-48BC41636302</generatorID>
+<ownerDesignName>EER_Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BA52F73-0E0B-7BA8-7BF2-6A44736E5AAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
