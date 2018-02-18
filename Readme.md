@@ -5,11 +5,11 @@ Done for ICS 324, taught by Yahya Garout & Wasfi Al-khatib
 
 The system's main functionality is to store incoming and outgoing emails and their attachments for a specific email account. The system will consist of service providers, users, and emails
 
-* [Project Proposal](https://github.com/qirh/ICS202-FinalProject/blob/master/Project%20Requirements.docx)
+* [Project Proposal](https://github.com/qirh/ICS324-FinalProject/blob/master/Proposal.pdf)
 
-* [Project Report](https://github.com/qirh/ICS202-FinalProject/blob/master/Project%20Report.pdf)
+* [Project Report](https://github.com/qirh/ICS324-FinalProject/blob/master/Report.pdf)
 
-* [Presentation](https://raw.githubusercontent.com/qirh/ICS202-FinalProject/master/help.txt)
+* [Presentation](https://github.com/qirh/ICS324-FinalProject/blob/master/Presentation.pptx)
 
 ## Requirments
 * Valid email account
