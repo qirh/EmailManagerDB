@@ -13,10 +13,14 @@ The system's main functionality is to store incoming and outgoing emails and the
 
 ## Design Charts
 
-**Conceptual Design (EER diagram)**
+* **Conceptual Design (EER diagram)**
+
 <div style="text-align:center"><img src="Conceptual Design.png" height = "450" width="650"></div>
 
-**Logical Design (The Relational Schema)**
+
+
+* **Logical Design (The Relational Schema)**
+
 <div style="text-align:center"><img src="Logical Design.png" height = "450" width="650"></div>
 
 
